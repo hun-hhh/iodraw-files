@@ -66,7 +66,7 @@
         <mxCell id="8zRAOxtj8G5WfJGYWGQp-16" value="Block4: [多个卷积层+残差连接] → MaxPool" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="193" y="1281" width="224" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="8zRAOxtj8G5WfJGYWGQp-17" value="Block5: Conv5_1 (3x3,512) -&amp;gt; Conv5_2 -&amp;gt; Conv5_3 -&amp;gt; RES5_1 (Add)&#xa;-&amp;gt; MaxPool" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="8zRAOxtj8G5WfJGYWGQp-17" value="Block5: Conv5_1 (3x3,512) →Conv5_2 → Conv5_3 →RES5_1 (Add)&#xa;→MaxPool" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="1438" width="250" height="119" as="geometry" />
         </mxCell>
         <mxCell id="8zRAOxtj8G5WfJGYWGQp-18" value="7x7x512" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
