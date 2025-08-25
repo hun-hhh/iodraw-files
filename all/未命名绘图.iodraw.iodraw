@@ -11,7 +11,7 @@
           <mxGeometry x="366" y="522" width="244" height="84" as="geometry" />
         </mxCell>
         <mxCell id="8zRAOxtj8G5WfJGYWGQp-3" value="S2-S4: VGG-RES特征提取与优化&#xa;网络 (残差连接, ASPP, CBAM)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="660" y="513" width="250" height="101" as="geometry" />
+          <mxGeometry x="680" y="513" width="250" height="101" as="geometry" />
         </mxCell>
         <mxCell id="8zRAOxtj8G5WfJGYWGQp-4" value="S5: 分类器&#xa;(FC+Softmax)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="960" y="539" width="246" height="49" as="geometry" />
