@@ -57,7 +57,7 @@
         <mxCell id="8zRAOxtj8G5WfJGYWGQp-13" value="Block1: Conv1_1 (3x3,64) → Conv1_2 (3x3,64) → MaxPool (2x2)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="184" y="759" width="241" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="8zRAOxtj8G5WfJGYWGQp-14" value="Block2: Conv2_1 (3x3,128) -&amp;gt; Conv2_2 (3x3,128) -&amp;gt; RES2_1 (Add)&#xa;-&amp;gt; enhance2_1 -&amp;gt; enhance2_2 -&amp;gt; RES2_2 (Add) -&amp;gt; MaxPool" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="8zRAOxtj8G5WfJGYWGQp-14" value="Block2: Conv2_1 (3x3,128) → Conv2_2 (3x3,128) → RES2_1 (Add)&#xa;→ enhance2_1 → enhance2_2 →RES2_2 (Add) →MaxPool" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="180" y="915" width="250" height="137" as="geometry" />
         </mxCell>
         <mxCell id="8zRAOxtj8G5WfJGYWGQp-15" value="Block3: [多个卷积层+残差连接] -&gt; MaxPool" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
