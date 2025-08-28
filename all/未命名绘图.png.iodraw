@@ -4,28 +4,6 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="PloFpy5vDh6H5WhGYexr-10" value="一级预警&#xa;进入警戒区&#xa;位置提示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="335" y="1055" width="140" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-12" value="三级预警&#xa;进入保护区+高度/电场超限&#xa;最高级报警+强制推送" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="787" y="1055" width="253" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.61;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="PloFpy5vDh6H5WhGYexr-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="405" y="1030" />
-            </Array>
-            <mxPoint x="726.188524590164" y="959.688524590164" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.33;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-10">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="405" y="1164" />
-            </Array>
-            <mxPoint x="720" y="1205.17" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="PloFpy5vDh6H5WhGYexr-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.29;entryX=1;entryY=0.79;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -33,6 +11,137 @@
               <mxPoint x="1075" y="415" />
             </Array>
             <mxPoint x="836" y="379.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-27" value="A[车载主机HMI界面]" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="20" y="600" width="2608" height="265" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-28" value="状态显示区" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="346" y="46" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-29" value="北斗信号强度: ████□" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="43" y="177" width="222" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-30" value="4G连接状态: 已连接" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="315" y="178" width="202" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-31" value="传感器状态: 在线" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="567" y="178" width="183" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-32" value="核心参数区" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="1151" y="46" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-33" value="经度: 116.3912°" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="799" y="178" width="176" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-34" value="纬度: 39.9056°" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="1025" y="178" width="167" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-35" value="吊臂高度: 25.6米" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="1242" y="178" width="182" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-36" value="线距: 8.3米" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="1474" y="178" width="141" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-37" value="预警信息栏" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="1689" y="46" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-38" value="滚动文字: 进入预警区防范区" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="1665" y="169" width="188" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-39" value="功能操作区" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="2184" y="46" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-40" value="设置塔参数" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="1903" y="178" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-41" value="传感器标定" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="2093" y="178" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-42" value="高度校准" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="2283" y="178" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-43" value="音量调节" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-27">
+          <mxGeometry x="2457" y="178" width="124" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.82;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="PloFpy5vDh6H5WhGYexr-27" source="PloFpy5vDh6H5WhGYexr-28" target="PloFpy5vDh6H5WhGYexr-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="154" y="132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-45" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="PloFpy5vDh6H5WhGYexr-27" source="PloFpy5vDh6H5WhGYexr-28" target="PloFpy5vDh6H5WhGYexr-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-46" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.85;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="PloFpy5vDh6H5WhGYexr-27" source="PloFpy5vDh6H5WhGYexr-28" target="PloFpy5vDh6H5WhGYexr-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="658" y="132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.75;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="PloFpy5vDh6H5WhGYexr-27" source="PloFpy5vDh6H5WhGYexr-32" target="PloFpy5vDh6H5WhGYexr-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="887" y="132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="PloFpy5vDh6H5WhGYexr-27" source="PloFpy5vDh6H5WhGYexr-32" target="PloFpy5vDh6H5WhGYexr-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1109" y="132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.82;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="PloFpy5vDh6H5WhGYexr-27" source="PloFpy5vDh6H5WhGYexr-32" target="PloFpy5vDh6H5WhGYexr-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1333" y="132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.76;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="PloFpy5vDh6H5WhGYexr-27" source="PloFpy5vDh6H5WhGYexr-32" target="PloFpy5vDh6H5WhGYexr-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1545" y="132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-51" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="PloFpy5vDh6H5WhGYexr-27" source="PloFpy5vDh6H5WhGYexr-37" target="PloFpy5vDh6H5WhGYexr-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-52" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.8;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="PloFpy5vDh6H5WhGYexr-27" source="PloFpy5vDh6H5WhGYexr-39" target="PloFpy5vDh6H5WhGYexr-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1973" y="132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="PloFpy5vDh6H5WhGYexr-27" source="PloFpy5vDh6H5WhGYexr-39" target="PloFpy5vDh6H5WhGYexr-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2163" y="132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-54" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.76;exitY=0.98;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="PloFpy5vDh6H5WhGYexr-27" source="PloFpy5vDh6H5WhGYexr-39" target="PloFpy5vDh6H5WhGYexr-42">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2345" y="132" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PloFpy5vDh6H5WhGYexr-55" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.82;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="PloFpy5vDh6H5WhGYexr-27" source="PloFpy5vDh6H5WhGYexr-39" target="PloFpy5vDh6H5WhGYexr-43">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2519" y="132" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
