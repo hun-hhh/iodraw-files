@@ -4,15 +4,6 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="PloFpy5vDh6H5WhGYexr-0" value="I[特殊报警逻辑]" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="20" y="150" width="586" height="141" as="geometry" />
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-1" value="吊臂高度＞5米但未超限&#xa;提示&quot;上方有高压线" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-0">
-          <mxGeometry x="43" y="46" width="244" height="66" as="geometry" />
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-2" value="北斗信号丢失&#xa;提示&quot;定位信号弱" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="PloFpy5vDh6H5WhGYexr-0">
-          <mxGeometry x="337" y="46" width="222" height="66" as="geometry" />
-        </mxCell>
         <mxCell id="PloFpy5vDh6H5WhGYexr-3" value="系统上电初始化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="656" y="196" width="172" height="49" as="geometry" />
         </mxCell>
