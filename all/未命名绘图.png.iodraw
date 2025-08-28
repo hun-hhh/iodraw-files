@@ -4,123 +4,35 @@
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="PloFpy5vDh6H5WhGYexr-3" value="系统上电初始化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="656" y="196" width="172" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-4" value="北斗定位判断区域" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="648" y="341" width="188" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-5" value="是否进入作业区域?" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="530" y="440" width="183" height="183" as="geometry" />
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-6" value="休眠状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="488" y="695" width="124" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-7" value="激活高度与电场传感器" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="662" y="695" width="220" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-8" value="多源数据融合计算" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="678" y="794" width="188" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-9" value="距离判断" style="rhombus;strokeWidth=2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="716" y="893" width="113" height="113" as="geometry" />
-        </mxCell>
         <mxCell id="PloFpy5vDh6H5WhGYexr-10" value="一级预警&#xa;进入警戒区&#xa;位置提示" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="335" y="1055" width="140" height="84" as="geometry" />
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-11" value="二级预警&#xa;进入防范区+高度接近&#xa;声光报警+平台通知" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="525" y="1055" width="212" height="84" as="geometry" />
         </mxCell>
         <mxCell id="PloFpy5vDh6H5WhGYexr-12" value="三级预警&#xa;进入保护区+高度/电场超限&#xa;最高级报警+强制推送" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="787" y="1055" width="253" height="84" as="geometry" />
         </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-13" value="持续监控" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="720" y="1189" width="124" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-3" target="PloFpy5vDh6H5WhGYexr-4">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.18;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-4" target="PloFpy5vDh6H5WhGYexr-5">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="621" y="415" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-16" value="否" style="curved=1;startArrow=none;endArrow=block;exitX=0.22;exitY=1;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-5" target="PloFpy5vDh6H5WhGYexr-6">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="550" y="659" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-17" value="是" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.92;entryX=0.5;entryY=0.01;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-5" target="PloFpy5vDh6H5WhGYexr-7">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="772" y="659" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-7" target="PloFpy5vDh6H5WhGYexr-8">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-8" target="PloFpy5vDh6H5WhGYexr-9">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.61;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-9" target="PloFpy5vDh6H5WhGYexr-10">
+        <mxCell id="PloFpy5vDh6H5WhGYexr-20" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.61;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="PloFpy5vDh6H5WhGYexr-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="405" y="1030" />
             </Array>
+            <mxPoint x="726.188524590164" y="959.688524590164" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-21" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.78;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-9" target="PloFpy5vDh6H5WhGYexr-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="631" y="1030" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-22" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.99;exitY=0.78;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-9" target="PloFpy5vDh6H5WhGYexr-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="913" y="1030" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.33;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-10" target="PloFpy5vDh6H5WhGYexr-13">
+        <mxCell id="PloFpy5vDh6H5WhGYexr-23" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.33;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="405" y="1164" />
             </Array>
+            <mxPoint x="720" y="1205.17" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.09;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-11" target="PloFpy5vDh6H5WhGYexr-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="631" y="1164" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.03;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-12" target="PloFpy5vDh6H5WhGYexr-13">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="913" y="1164" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="PloFpy5vDh6H5WhGYexr-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.29;entryX=1;entryY=0.79;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-13" target="PloFpy5vDh6H5WhGYexr-4">
+        <mxCell id="PloFpy5vDh6H5WhGYexr-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.29;entryX=1;entryY=0.79;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="PloFpy5vDh6H5WhGYexr-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1075" y="1164" />
               <mxPoint x="1075" y="415" />
             </Array>
+            <mxPoint x="836" y="379.71000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
